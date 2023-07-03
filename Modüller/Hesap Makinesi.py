@@ -43,10 +43,10 @@ def main():
         print("8. Sinüs")
         print("9. Kosinüs")
         print("10. Tanjant")
-        print("0. Çıkış")
+        print("q. Çıkış")
         secim = int(input("Yapmak istediğiniz işlemi seçin: "))
 
-        if secim == 0:
+        if secim == "q":
             print("Hesap makinesi kapatılıyor...")
             break
         elif secim == 1:
